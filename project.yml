@@ -1,0 +1,9 @@
+version: '1'
+parameters: {}
+environment: {}
+packages:
+  - name: www
+    actions:
+      - name: site
+        runtime: 'python:default'
+        web: true
